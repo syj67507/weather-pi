@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#city {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  width: 100%;
+  height: 100%;
+  flex: 4;
+}
+
+#general-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  flex: 1;
+}
+
+#city {
+  font-size: 48px;
+}
+
+#weather-status {
+  font-size: 48px;
+  padding-bottom: 16px;
+}
+
+.day {
+  background-color: #7f9ab6;
+}
+
+.night {
+  background-color: #2a2a42;
+}
+
+#weather-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  /* background-color: #4a4a68; */
+  padding: 8px;
+}
+
+#weather-icon-img {
+  width: 512px;
+  height: 512px;
+  mix-blend-mode: multiply;
+}
+
+#left-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#temperature-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  height: 350px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+#mid-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#current-temperature {
+  font-size: 128px
+}
+
+#extra-temp-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+#temperature-label {
+  text-align: center;
+  opacity: 0.5;
+}
+
+#temperature-value {
+  position: relative;
+  display: inline-flex; /* Ensures the container size adapts to its content */
+  flex-direction: row;
+  font-size: x-large;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+
+#extra-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#uv-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: xx-large;
+}
+
+#rain-chance-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  font-size: xx-large;
+}
+
+#aqi-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  font-size: xx-large;
+}
